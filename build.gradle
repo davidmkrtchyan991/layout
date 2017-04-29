@@ -10,7 +10,7 @@ buildscript {
 }
 
 version "0.1"
-group "layout"
+group "com.workeat.plugin"
 
 apply plugin:"eclipse"
 apply plugin:"idea"

@@ -1,4 +1,4 @@
-package layout
+package com.workeat.plugin
 
 import grails.boot.*
 import grails.boot.config.GrailsAutoConfiguration

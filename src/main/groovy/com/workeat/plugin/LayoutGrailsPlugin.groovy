@@ -1,14 +1,14 @@
-package layout
+package com.workeat.plugin
 
 import grails.plugins.*
 
-class Layout/GrailsPlugin extends Plugin {
+class LayoutGrailsPlugin extends Plugin {
 
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "3.2.7 > *"
     // resources that are excluded from plugin packaging
     def pluginExcludes = [
-        "grails-app/views/error.gsp"
+            "grails-app/views/error.gsp"
     ]
 
     // TODO Fill in these fields
@@ -41,8 +41,8 @@ Brief summary/description of the plugin.
 //    def scm = [ url: "http://svn.codehaus.org/grails-plugins/" ]
 
     Closure doWithSpring() { {->
-            // TODO Implement runtime spring config (optional)
-        }
+        // TODO Implement runtime spring config (optional)
+    }
     }
 
     void doWithDynamicMethods() {

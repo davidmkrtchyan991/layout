@@ -2,7 +2,7 @@
 grails:
     profile: web-plugin
     codegen:
-        defaultPackage: layout
+        defaultPackage: com.workeat.plugin
     spring:
         transactionManagement:
             proxies: false
